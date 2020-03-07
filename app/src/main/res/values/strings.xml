@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Final</string>
+
+    <!-- category strings -->
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="my_checklist_string">My Checklist</string>
+    <string name="all_tasks_string">All Tasks</string>
+    <string name="campus_life_string">Campus Life</string>
+    <string name="international_students_string">International\
+Students</string>
+    <string name="_2_items_string">2 Items</string>
+    <string name="_4_items_string">4 Items</string>
+    <string name="required_paperworks_string">Required\
+Paperworks</string>
+    <string name="_5_items_string">5 Items</string>
+    <string name="_11_items_string">11 Items</string>
+
+    <string name="today_string">Today</string>
+    <string name="aug_11_string">Aug.11</string>
+    <string name="sept_02_string">Sept.02</string>
+    <string name="submit_official_documents_string">Submit Official Documents</string>
+    <string name="complete_two_factor_authentication_enrollment_string">Complete Two-Factor Authentication enrollment</string>
+    <string name="submit_health_and_immunization_information_string">Submit Health and Immunization Information</string>
+    <string name="activate_gt_account_string">Activate GT Account</string>
+
+
+    <!--    Official Document-->
+    <string name="submit_official_documents__although_you_may_have_applied_with_unofficial_transcripts_and_degree_documents__you_must_now_submit_the_original__official_documents_prior_to_the_start_of_the_semester____international_students_must_submit_official_academic_docum_string">Submit official documents. Although you may have applied with unofficial transcripts and degree documents, you must now submit the original, official documents prior to the start of the semester. \
+\
+International Students must submit official academic documents in both the native language and English. \
+\
+</string>
+    <string name="if_your_previous_institution_offers_delivery_of_secure_electronic_transcripts__please_have_documents_sent_to_transcripts_grad_gatech_edu____scanned_or_emailed_unofficial_documents_will_not_be_accepted__but_official_documents_in_sealed_envelopes_may_be_mail_string">If your previous institution offers delivery of secure electronic transcripts, please have documents sent to transcripts@grad.gatech.edu. \
+\
+Scanned or emailed unofficial documents will not be accepted, but official documents in sealed envelopes may be mailed or hand-delivered to the following address:\
+\
+Office of Graduate Studies\
+Georgia Institute of Technology\
+631 Cherry St., Suite 318\
+Atlanta, GA 30332-0321</string>
+    <string name="_404_894_1610__faq_form_string">404.894.1610\
+\
+FAQ Form</string>
+    <string name="requirements_string">Requirements</string>
+    <string name="instructions_string">Instructions</string>
+    <string name="contacts_string">Contacts</string>
+    <string name="completed__string">Completed!</string>
+
+    <!--    profile-->
+    <string name="profile_string">Profile</string>
+    <string name="checklist_string">Checklist</string>
+    <string name="discussion_string">Discussion</string>
+    <string name="hi__string">Hi~</string>
+    <string name="christina_string">Christina</string>
+    <string name="language_string">Language</string>
+    <string name="notifications_string">Notifications</string>
+    <string name="help_string">Help</string>
+    <string name="log_out_string">Log Out</string>
+</resources>
+

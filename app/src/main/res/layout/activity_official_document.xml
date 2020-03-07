@@ -1,0 +1,216 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		details
+     *	@date 		0
+     *	@title 		Details
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.2.9.xd
+     *
+     */
+    -->
+    <ScrollView android:id="@+id/details"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="850dp" >
+
+            <View android:id="@+id/_bg__details"
+                android:background="@drawable/_bg__details_shape"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="410dp"
+                android:layout_height="850dp" />
+
+
+            <RelativeLayout android:id="@+id/group_448"
+                android:layout_marginTop="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View android:id="@+id/rectangle_9"
+                    android:background="@drawable/rectangle_9_shape"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="410dp"
+                    android:layout_height="919dp" />
+
+                <ImageView android:id="@+id/np_call_1944796_c0b07b"
+                    android:src="@drawable/np_call_1944796_c0b07b"
+                    android:contentDescription="np_call_1944796_c0b07b"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="722dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+
+                <ImageView android:id="@+id/np_question_670406_c0b07b"
+                    android:src="@drawable/np_question_670406_c0b07b"
+                    android:contentDescription="np_question_670406_c0b07b"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="764dp"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+
+                <TextView android:id="@+id/submit_official_documents__although_you_may_have_applied_with_unofficial_transcripts_and_degree_documents__you_must_now_submit_the_original__official_documents_prior_to_the_start_of_the_semester____international_students_must_submit_official_academic_docum"
+                    android:fontFamily="Avenir"
+                    android:textSize="14sp"
+                    android:textColor="@color/submit_official_documents__although_you_may_have_applied_with_unofficial_transcripts_and_degree_documents__you_must_now_submit_the_original__official_documents_prior_to_the_start_of_the_semester____international_students_must_submit_official_academic_docum_color"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="187dp"
+                    android:layout_width="378dp"
+                    android:layout_height="175dp"
+                    android:text="@string/submit_official_documents__although_you_may_have_applied_with_unofficial_transcripts_and_degree_documents__you_must_now_submit_the_original__official_documents_prior_to_the_start_of_the_semester____international_students_must_submit_official_academic_docum_string"
+                    />
+
+                <TextView android:id="@+id/if_your_previous_institution_offers_delivery_of_secure_electronic_transcripts__please_have_documents_sent_to_transcripts_grad_gatech_edu____scanned_or_emailed_unofficial_documents_will_not_be_accepted__but_official_documents_in_sealed_envelopes_may_be_mail"
+                    android:fontFamily="Avenir"
+                    android:textSize="14sp"
+                    android:textColor="@color/if_your_previous_institution_offers_delivery_of_secure_electronic_transcripts__please_have_documents_sent_to_transcripts_grad_gatech_edu____scanned_or_emailed_unofficial_documents_will_not_be_accepted__but_official_documents_in_sealed_envelopes_may_be_mail_color"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="399dp"
+                    android:layout_width="378dp"
+                    android:layout_height="280dp"
+                    android:text="@string/if_your_previous_institution_offers_delivery_of_secure_electronic_transcripts__please_have_documents_sent_to_transcripts_grad_gatech_edu____scanned_or_emailed_unofficial_documents_will_not_be_accepted__but_official_documents_in_sealed_envelopes_may_be_mail_string"
+                    />
+
+                <TextView android:id="@+id/_404_894_1610__faq_form"
+                    android:fontFamily="Avenir"
+                    android:textSize="14sp"
+                    android:textColor="@color/_404_894_1610__faq_form_color"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="717dp"
+                    android:layout_width="354dp"
+                    android:layout_height="110dp"
+                    android:text="@string/_404_894_1610__faq_form_string"
+                    />
+
+                <TextView android:id="@+id/requirements"
+                    android:fontFamily="Avenir"
+                    android:textSize="16sp"
+                    android:textColor="@color/if_your_previous_institution_offers_delivery_of_secure_electronic_transcripts__please_have_documents_sent_to_transcripts_grad_gatech_edu____scanned_or_emailed_unofficial_documents_will_not_be_accepted__but_official_documents_in_sealed_envelopes_may_be_mail_color"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="155dp"
+                    android:layout_width="162dp"
+                    android:layout_height="49dp"
+                    android:text="@string/requirements_string"
+                    />
+
+                <TextView android:id="@+id/instructions"
+                    android:fontFamily="Avenir"
+                    android:textSize="16sp"
+                    android:textColor="@color/if_your_previous_institution_offers_delivery_of_secure_electronic_transcripts__please_have_documents_sent_to_transcripts_grad_gatech_edu____scanned_or_emailed_unofficial_documents_will_not_be_accepted__but_official_documents_in_sealed_envelopes_may_be_mail_color"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="366dp"
+                    android:layout_width="162dp"
+                    android:layout_height="49dp"
+                    android:text="@string/instructions_string"
+                    />
+
+                <TextView android:id="@+id/contacts"
+                    android:fontFamily="Avenir"
+                    android:textSize="16sp"
+                    android:textColor="@color/if_your_previous_institution_offers_delivery_of_secure_electronic_transcripts__please_have_documents_sent_to_transcripts_grad_gatech_edu____scanned_or_emailed_unofficial_documents_will_not_be_accepted__but_official_documents_in_sealed_envelopes_may_be_mail_color"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="683dp"
+                    android:layout_width="162dp"
+                    android:layout_height="49dp"
+                    android:text="@string/contacts_string"
+                    />
+
+
+                <RelativeLayout android:id="@+id/group_1"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View android:id="@+id/rectangle_8"
+                        android:background="@drawable/rectangle_8_shape"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="410dp"
+                        android:layout_height="76dp" />
+
+                    <TextView android:id="@+id/submit_official_documents"
+                        android:fontFamily="Avenir"
+                        android:textSize="20sp"
+                        android:textColor="@color/submit_official_documents__although_you_may_have_applied_with_unofficial_transcripts_and_degree_documents__you_must_now_submit_the_original__official_documents_prior_to_the_start_of_the_semester____international_students_must_submit_official_academic_docum_color"
+                        android:layout_marginLeft="51dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_width="254dp"
+                        android:layout_height="31dp"
+                        android:text="@string/submit_official_documents_string"
+                        />
+
+                    <ImageView android:id="@+id/np_back_26915_132d57"
+                        android:src="@drawable/np_back_26915_132d57"
+                        android:contentDescription="np_back_26915_132d57"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="29dp"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp" />
+
+                </RelativeLayout>
+
+                <View android:id="@+id/rectangle_20"
+                    android:background="@drawable/rectangle_20_shape"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="794dp"
+                    android:layout_width="410dp"
+                    android:layout_height="60dp" />
+
+                <TextView android:id="@+id/completed_"
+                    android:fontFamily="Avenir"
+                    android:layout_gravity="center_horizontal|center"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textColor="@color/completed__color"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginTop="812dp"
+                    android:layout_width="333dp"
+                    android:layout_height="39dp"
+                    android:text="@string/completed__string"
+                    />
+
+                <ImageView android:id="@+id/np_check_2422598_73c563"
+                    android:src="@drawable/np_check_2422598_73c563"
+                    android:contentDescription="np_check_2422598_73c563"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginTop="812dp"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" />
+
+                <ImageView android:id="@+id/np_dots_395568_132d57"
+                    android:src="@drawable/np_dots_395568_132d57"
+                    android:contentDescription="np_dots_395568_132d57"
+                    android:layout_marginLeft="367dp"
+                    android:layout_marginStart="367dp"
+                    android:layout_marginTop="23dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E0DAC5</color>
+    <color name="colorPrimaryDark">#e0dac5</color>
+    <color name="colorAccent">#D81B60</color>
+
+<!--    navigation bar-->
+    <color name="tab_bar">#fbfbfb</color>
+    <color name="icon_selected">#c0af7b</color>
+
+    <!--    category-->
+    <color name="_bg__category_color">#ffffff</color>
+    <color name="rectangle_8_color">#e0dac5</color>
+    <color name="my_checklist_color">#231f20</color>
+    <color name="all_tasks_color">#112e57</color>
+    <color name="_2_items_color">#707070</color>
+
+<!--    checklist-->
+    <color name="_bg__checklist_color">#ffffff</color>
+    <color name="required_paperworks_color">#231f20</color>
+    <color name="today_color">#112e57</color>
+
+<!--    Official Document-->
+    <color name="_bg__details_color">#ffffff</color>
+    <color name="submit_official_documents__although_you_may_have_applied_with_unofficial_transcripts_and_degree_documents__you_must_now_submit_the_original__official_documents_prior_to_the_start_of_the_semester____international_students_must_submit_official_academic_docum_color">#231f20</color>
+    <color name="if_your_previous_institution_offers_delivery_of_secure_electronic_transcripts__please_have_documents_sent_to_transcripts_grad_gatech_edu____scanned_or_emailed_unofficial_documents_will_not_be_accepted__but_official_documents_in_sealed_envelopes_may_be_mail_color">#112e57</color>
+    <color name="_404_894_1610__faq_form_color">#387cd9</color>
+    <color name="rectangle_20_color">#ecf8ea</color>
+    <color name="completed__color">#669d5d</color>
+
+<!--    profile-->
+    <color name="_bg__profile_color">#ffffff</color>
+    <color name="profile_color">#c0af7b</color>
+    <color name="checklist_color">#a9a9a9</color>
+    <color name="discussion_color">#999999</color>
+    <color name="hi__color">#707070</color>
+    <color name="christina_color">#000000</color>
+    <color name="language_color">#231f20</color>
+</resources>
