@@ -59,7 +59,7 @@ public class Discussion extends AppCompatActivity {
             super.onPostExecute(s);
             // display questions
             ListView listView = findViewById(R.id.listView);
-            ArrayList<String> arr = new ArrayList<>();
+            final ArrayList<String> arr = new ArrayList<>();
             final ArrayList<String> replies = new ArrayList<>();
             try {
                 JSONArray jsonArray = new JSONArray(s);
@@ -81,6 +81,7 @@ public class Discussion extends AppCompatActivity {
                     // switch to ReplyActivity
                     Intent intent = new Intent(getApplicationContext(), ReplyActivity.class);
                     intent.putExtra("reply", replies.get(i));
+                    intent.putExtra("question", arr.get(i));
                     startActivity(intent);
                 }
             });
@@ -117,6 +118,17 @@ public class Discussion extends AppCompatActivity {
             }
         });
 
+        // add question
+        View addQuestion = findViewById(R.id.addQuestion);
+        addQuestion.setOnClickListener(new AdapterView.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), PostQuestion.class);
+                startActivity(intent);
+            }
+        });
+
+        // fetch data
         DownloadTask task = new DownloadTask();
         task.execute("https://gt-onboarding.appspot.com/qna");
 

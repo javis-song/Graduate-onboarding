@@ -3,6 +3,8 @@ package com.example.afinal;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -66,5 +68,17 @@ public class ReplyActivity extends AppCompatActivity {
         ListView listView = findViewById(R.id.replyListView);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, arr);
         listView.setAdapter(arrayAdapter);
+
+        // add reply
+        final String question = intent.getStringExtra("question");
+        View addQuestion = findViewById(R.id.addReply);
+        addQuestion.setOnClickListener(new AdapterView.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), PostReply.class);
+                intent.putExtra("question", question);
+                startActivity(intent);
+            }
+        });
     }
 }

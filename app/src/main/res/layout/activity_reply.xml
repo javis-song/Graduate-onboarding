@@ -42,7 +42,7 @@
     />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/addReply"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:layout_above="@id/bottom_navigation"

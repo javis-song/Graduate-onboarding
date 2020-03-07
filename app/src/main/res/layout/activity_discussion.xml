@@ -43,7 +43,7 @@
         android:textSize="32dp"/>
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/addQuestion"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:layout_above="@id/bottom_navigation"
