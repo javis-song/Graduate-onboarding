@@ -12,20 +12,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PostReply"></activity>
-        <activity android:name=".PostQuestion" />
-        <activity android:name=".ReplyActivity" />
-        <activity android:name=".Discussion" />
-        <activity android:name=".Profile" />
-        <activity android:name=".OfficialDocument" />
-        <activity android:name=".Checklist" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".PostReply" />
+        <activity android:name=".PostQuestion" />
+        <activity android:name=".ReplyActivity" />
+        <activity android:name=".Discussion" />
+        <activity android:name=".Profile" />
+        <activity android:name=".OfficialDocument" />
+        <activity android:name=".Checklist" />
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

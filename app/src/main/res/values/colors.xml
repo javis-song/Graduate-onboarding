@@ -8,6 +8,16 @@
     <color name="tab_bar">#fbfbfb</color>
     <color name="icon_selected">#c0af7b</color>
 
+<!--    login-->
+    <color name="_bg__log_in_color">#ffffff</color>
+    <color name="rectangle_1_color">#e0dac5</color>
+    <color name="student_log_in_color">#112e57</color>
+    <color name="sign_up_color">#c9c9c9</color>
+    <color name="sgao303_color">#231f20</color>
+    <color name="ellipse_1_color">#231f20</color>
+    <color name="rectangle_3_color">#112e57</color>
+    <color name="log_in_color">#ffffff</color>
+
     <!--    category-->
     <color name="_bg__category_color">#ffffff</color>
     <color name="rectangle_8_color">#e0dac5</color>

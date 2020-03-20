@@ -1,0 +1,167 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		log_in
+     *	@date 		0
+     *	@title 		Log In
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.2.9.xd
+     *
+     */
+    -->
+    <ScrollView
+        android:id="@+id/log_in"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/content_container"
+            android:layout_width="match_parent"
+            android:layout_height="836dp">
+
+            <View
+                android:id="@+id/_bg__log_in"
+                android:layout_width="412dp"
+                android:layout_height="812dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/_bg__log_in_shape" />
+
+            <View
+                android:id="@+id/rectangle_1"
+                android:layout_width="412dp"
+                android:layout_height="836dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/rectangle_1_shape" />
+
+            <View
+                android:id="@+id/rectangle_2"
+                android:layout_width="412dp"
+                android:layout_height="406dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="432dp"
+                android:background="@drawable/rectangle_2_shape" />
+
+            <ImageView
+                android:id="@+id/georgia_institute_of_technology_georgia_tech_yellow_jackets_football_georgia_tech_yellow_jackets_men_s_basketball_buzz_yellowjacket_png_favpng_4rcsfdg"
+                android:layout_width="170dp"
+                android:layout_height="166dp"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="195dp"
+                android:contentDescription="georgia_institute_of_technology_georgia_tech_yellow_jackets_football_georgia_tech_yellow_jackets_men_s_basketball_buzz_yellowjacket_png_favpng_4rcsfdg"
+                android:src="@drawable/georgia_institute_of_technology_georgia_tech_yellow_jackets_football_georgia_tech_yellow_jackets_men_s_basketball_buzz_yellowjacket_png_favpng_4rcsfdg" />
+
+            <TextView
+                android:id="@+id/student_log_in"
+                android:layout_width="116dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="61dp"
+                android:layout_marginTop="459dp"
+                android:fontFamily="Avenir"
+                android:text="@string/student_log_in_string"
+                android:textColor="@color/student_log_in_color"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/sign_up"
+                android:layout_width="64dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="251dp"
+                android:layout_marginTop="459dp"
+                android:fontFamily="Avenir"
+                android:text="@string/sign_up_string"
+                android:textColor="@color/sign_up_color"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="536dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="616dp"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <ImageView
+                android:id="@+id/np_user_697823_0b2f55"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="545dp"
+                android:contentDescription="np_user_697823_0b2f55"
+                android:src="@drawable/np_user_697823_0b2f55" />
+
+            <ImageView
+                android:id="@+id/np_password_2946344_0b2f55"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="49dp"
+                android:layout_marginLeft="49dp"
+                android:layout_marginTop="625dp"
+                android:contentDescription="np_password_2946344_0b2f55"
+                android:src="@drawable/np_password_2946344_0b2f55" />
+
+
+            <RelativeLayout
+                android:id="@+id/component_6___1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="725dp">
+
+                <View
+                    android:id="@+id/rectangle_3"
+                    android:layout_width="277dp"
+                    android:layout_height="44dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_3_shape" />
+
+                <TextView
+                    android:id="@+id/log_in_textView"
+                    android:layout_width="94dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="111dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="Avenir"
+                    android:text="@string/log_in_string"
+                    android:textColor="@color/log_in_color"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/line_3"
+                android:layout_width="112dp"
+                android:layout_height="1dp"
+                android:layout_marginStart="50.5dp"
+                android:layout_marginLeft="50.5dp"
+                android:layout_marginTop="485dp"
+                android:contentDescription="line_3"
+                android:src="@drawable/line_3" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

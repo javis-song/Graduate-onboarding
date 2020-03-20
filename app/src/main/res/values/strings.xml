@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">Final</string>
 
+<!--    login-->
+    <string name="student_log_in_string">Student Log In</string>
+    <string name="sign_up_string">Sign Up</string>
+    <string name="sgao303_string">sgao303</string>
+    <string name="forgot_password__string">Forgot password?</string>
+    <string name="log_in_string">LOG IN</string>
+
     <!-- category strings -->
     <string name="ek_img_content">ExportKit Image</string>
     <string name="my_checklist_string">My Checklist</string>
