@@ -6,29 +6,72 @@
     android:layout_height="match_parent"
     tools:context=".PostReply">
 
-    <EditText
-        android:id="@+id/reply"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="95dp"
-        android:layout_marginTop="204dp"
-        android:layout_marginEnd="103dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        app:layout_constraintEnd_toEndOf="parent"
+    <View
+        android:id="@+id/rectangle_8"
+        android:layout_width="410dp"
+        android:layout_height="74dp"
+        android:background="@drawable/rectangle_8_shape"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="np_back_26915_132d57"
+        android:src="@drawable/np_back_26915_132d57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/required_paperworks"
+        android:layout_width="206dp"
+        android:layout_height="31dp"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="Avenir"
+        android:gravity="end"
+        android:text="New Reply"
+        android:textColor="@color/required_paperworks_color"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_8">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/reply"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="your reply here"
+            android:paddingBottom="150dp"
+            app:layout_constraintTop_toBottomOf="@+id/question" />
+    </com.google.android.material.textfield.TextInputLayout>
+
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="158dp"
-        android:layout_marginTop="181dp"
+        android:layout_marginTop="500dp"
         android:layout_marginEnd="165dp"
+        android:background="@drawable/button"
         android:text="Submit"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/reply" />
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

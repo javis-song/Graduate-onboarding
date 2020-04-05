@@ -87,18 +87,20 @@
                 android:id="@+id/username"
                 android:layout_width="277dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="76dp"
-                android:layout_marginTop="536dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="530dp"
                 android:ems="10"
+                android:hint="username"
                 android:inputType="textPersonName" />
 
             <EditText
                 android:id="@+id/password"
                 android:layout_width="277dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="75dp"
-                android:layout_marginTop="616dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="610dp"
                 android:ems="10"
+                android:hint="password"
                 android:inputType="textPassword" />
 
             <ImageView
@@ -130,7 +132,7 @@
                 android:layout_marginTop="725dp">
 
                 <View
-                    android:id="@+id/rectangle_3"
+                    android:id="@+id/button"
                     android:layout_width="277dp"
                     android:layout_height="44dp"
                     android:layout_marginStart="0dp"

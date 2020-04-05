@@ -8,7 +8,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.Spinner;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -29,6 +31,16 @@ public class PostQuestion extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_post_question);
 
+        // add spinner options
+        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+        // Create an ArrayAdapter using the string array and a default spinner layout
+        String[] items = {"required paperwork", "international student", "campus life", "other"};
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, items);
+        // Specify the layout to use when the list of choices appears
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        // Apply the adapter to the spinner
+        spinner.setAdapter(adapter);
+
         View addQuestion = findViewById(R.id.button);
         addQuestion.setOnClickListener(new AdapterView.OnClickListener() {
             @Override
@@ -41,7 +53,7 @@ public class PostQuestion extends AppCompatActivity {
                 JSONObject postData = new JSONObject();
                 try {
                     postData.put("question", text);
-                    postData.put("id", "CS");
+                    postData.put("id", "CS student");
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
@@ -51,6 +63,16 @@ public class PostQuestion extends AppCompatActivity {
                 new SendDeviceDetails().execute(url, postData.toString());
 
                 // return to the discussion
+                Intent intent = new Intent(getApplicationContext(), Discussion.class);
+                startActivity(intent);
+            }
+        });
+
+        // back to questions
+        View back = findViewById(R.id.back);
+        back.setOnClickListener(new AdapterView.OnClickListener() {
+            @Override
+            public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), Discussion.class);
                 startActivity(intent);
             }

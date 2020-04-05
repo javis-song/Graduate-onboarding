@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Final</string>
 
-<!--    login-->
+    <!--    login-->
     <string name="student_log_in_string">Student Log In</string>
     <string name="sign_up_string">Sign Up</string>
     <string name="sgao303_string">sgao303</string>
@@ -63,5 +63,21 @@ FAQ Form</string>
     <string name="notifications_string">Notifications</string>
     <string name="help_string">Help</string>
     <string name="log_out_string">Log Out</string>
+
+    <!--    post question-->
+    <string name="new_discussion_string">New Discussion</string>
+    <string name="normal_string">SUBMIT</string>
+    <string name="chambray_carles_terry_gibson_balls_plaid_wolf___string">Enter title here</string>
+    <string name="notes_ek1_string">Title</string>
+    <string name="chambray_carles_terry_gibson_balls_plaid_wolf___ek1_string">Enter your description here</string>
+    <string name="notes_ek3_string">Description</string>
+    <string name="christina_gao__string">Christina Gao </string>
+    <string name="march_24__2020_string">March 24, 2020</string>
+    <string-array name="planets_array">
+        <item>required paperwork</item>
+        <item>international student</item>
+        <item>campus life</item>
+        <item>other</item>
+    </string-array>
 </resources>
 

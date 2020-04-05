@@ -57,5 +57,16 @@ public class PostReply extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        // return to the discussion
+        View back = findViewById(R.id.back);
+        back.setOnClickListener(new AdapterView.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), Discussion.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
