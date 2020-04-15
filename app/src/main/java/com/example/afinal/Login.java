@@ -60,7 +60,7 @@ public class Login extends AppCompatActivity {
 
 //                Log.e("TAG", data);
 //                if (data != null && !data.equals("")) {
-                    Intent intent = new Intent(getApplicationContext(), Checklist.class);
+                    Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                     startActivity(intent);
 //                }
             }
