@@ -26,7 +26,7 @@ import java.net.URL;
 import java.util.ArrayList;
 
 public class Discussion extends AppCompatActivity {
-
+    WebView myWebView;
 //    public class DownloadTask extends AsyncTask<String, Void, String> {
 //
 //        @Override
@@ -90,7 +90,6 @@ public class Discussion extends AppCompatActivity {
 //        }
 //    }
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -131,9 +130,7 @@ public class Discussion extends AppCompatActivity {
         });
 
         // webview
-        setContentView(R.layout.activity_web_view);
-
-        WebView myWebView = findViewById(R.id.webView);
+        myWebView = findViewById(R.id.webView);
         myWebView.loadUrl("https://gt-onboarding.appspot.com/advisor/discussForAndroid");
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new WebViewClient());
@@ -142,5 +139,14 @@ public class Discussion extends AppCompatActivity {
 //        DownloadTask task = new DownloadTask();
 //        task.execute("https://gt-onboarding.appspot.com/qna");
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (myWebView.canGoBack()) {
+            myWebView.goBack();
+        } else {
+            finish();
+        }
     }
 }

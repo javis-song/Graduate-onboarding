@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- frame from your PSD file. -->
+<!-- rectangle_295_ek2 from your PSD file. -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
 	android:shape="rectangle" >
+	<corners android:radius="12dp" />
+	<stroke android:color="#112e57" android:width="0.10000000149012dp" />
 	<solid android:color="@color/background_ek1_color" />
 </shape>
 

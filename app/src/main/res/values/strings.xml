@@ -13,8 +13,7 @@
     <string name="my_checklist_string">My Checklist</string>
     <string name="all_tasks_string">All Tasks</string>
     <string name="campus_life_string">Campus Life</string>
-    <string name="international_students_string">International\
-Students</string>
+    <string name="international_students_string">International Students</string>
     <string name="_2_items_string">2 Items</string>
     <string name="_4_items_string">4 Items</string>
     <string name="required_paperworks_string">Required\
@@ -79,5 +78,14 @@ FAQ Form</string>
         <item>campus life</item>
         <item>other</item>
     </string-array>
+
+<!--    main page-->
+    <string name="checklist_ek1_string">Checklist</string>
+    <string name="_0_11_completed_string">0/11 Completed</string>
+    <string name="_0_11_completed_ek1_string">0/11 Completed</string>
+    <string name="required_paperworks_ek1_string">Required Paperworks</string>
+    <string name="_0_4_completed_string">0/4 Completed</string>
+    <string name="_0_4_completed_ek1_string">0/4 Completed</string>
+    <string name="_0_4_completed_ek2_string">0/4 Completed</string>
 </resources>
 

@@ -19,7 +19,6 @@
     <color name="log_in_color">#ffffff</color>
 
     <!--    category-->
-    <color name="_bg__category_color">#ffffff</color>
     <color name="rectangle_8_color">#e0dac5</color>
     <color name="my_checklist_color">#231f20</color>
     <color name="all_tasks_color">#112e57</color>
@@ -41,7 +40,6 @@
 <!--    profile-->
     <color name="_bg__profile_color">#ffffff</color>
     <color name="profile_color">#c0af7b</color>
-    <color name="checklist_color">#a9a9a9</color>
     <color name="discussion_color">#999999</color>
     <color name="hi__color">#707070</color>
     <color name="christina_color">#000000</color>
@@ -59,4 +57,10 @@
     <color name="notes_ek1_color">#112e57</color>
     <color name="christina_gao__color">#000000</color>
     <color name="march_24__2020_color">#707070</color>
+
+    <color name="_bg__category_color">#f7f8fa</color>
+    <color name="background_ek1_color">#ffffff</color>
+    <color name="checklist_color">#f2bb2d</color>
+    <color name="checklist_ek1_color">#231f20</color>
+    <color name="_0_11_completed_color">#707070</color>
 </resources>
