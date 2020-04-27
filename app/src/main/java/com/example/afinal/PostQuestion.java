@@ -32,7 +32,7 @@ public class PostQuestion extends AppCompatActivity {
         setContentView(R.layout.activity_post_question);
 
         // add spinner options
-        Spinner spinner = (Spinner) findViewById(R.id.spinner);
+        final Spinner spinner = (Spinner) findViewById(R.id.spinner);
         // Create an ArrayAdapter using the string array and a default spinner layout
         String[] items = {"required paperwork", "international student", "campus life", "other"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, items);
@@ -47,13 +47,18 @@ public class PostQuestion extends AppCompatActivity {
             public void onClick(View v) {
                 // get the question
                 EditText editText = findViewById(R.id.question);
+                EditText descriptionEditText = findViewById(R.id.discription);
                 String text = editText.getText().toString();
+                String category = spinner.getSelectedItem().toString();
+                String description = descriptionEditText.getText().toString();
 
                 // prepare the JSON data
                 JSONObject postData = new JSONObject();
                 try {
                     postData.put("question", text);
+                    postData.put("description", description);
                     postData.put("id", "CS student");
+                    postData.put("category", category);
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
